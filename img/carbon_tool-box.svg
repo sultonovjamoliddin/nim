@@ -1,0 +1,26 @@
+<svg width="56.000000" height="48.708862" viewBox="0 0 56 48.7089" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_1_43_dd" x="0.000000" y="0.000000" width="56.000000" height="48.708862" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip1_43">
+			<rect id="carbon:tool-box" rx="0.000000" width="47.000000" height="39.708862" transform="translate(4.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_1_43_dd)">
+		<rect id="carbon:tool-box" rx="0.000000" width="47.000000" height="39.708862" transform="translate(4.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip1_43)">
+			<path id="Vector" d="M46.58 8.52L41.51 8.52L41.51 3.45C41.51 2.55 41.16 1.69 40.52 1.06C39.89 0.43 39.03 0.07 38.13 0.07L17.86 0.07C16.96 0.07 16.1 0.43 15.47 1.06C14.83 1.69 14.48 2.55 14.48 3.45L14.48 8.52L9.41 8.52C8.06 8.52 6.77 9.05 5.82 10.01C4.87 10.96 4.34 12.25 4.34 13.59L4.34 37.25C4.34 38.14 4.69 39 5.33 39.64C5.96 40.27 6.82 40.63 7.72 40.63L48.27 40.63C49.17 40.63 50.03 40.27 50.66 39.64C51.3 39 51.65 38.14 51.65 37.25L51.65 13.59C51.65 12.25 51.12 10.96 50.17 10.01C49.22 9.05 47.93 8.52 46.58 8.52ZM17.86 3.45L38.13 3.45L38.13 8.52L17.86 8.52L17.86 3.45ZM48.27 37.25L7.72 37.25L7.72 22.04L21.24 22.04L21.24 30.49L34.75 30.49L34.75 22.04L48.27 22.04L48.27 37.25ZM24.62 22.04L31.37 22.04L31.37 27.11L24.62 27.11L24.62 22.04ZM7.72 18.66L7.72 13.59C7.72 13.14 7.89 12.71 8.21 12.4C8.53 12.08 8.96 11.9 9.41 11.9L46.58 11.9C47.03 11.9 47.46 12.08 47.78 12.4C48.1 12.71 48.27 13.14 48.27 13.59L48.27 18.66L7.72 18.66Z" fill="#00A0C1" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

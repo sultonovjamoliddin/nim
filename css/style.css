@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+#navbar {
+    padding: 30px 0;
+}
+
+.navbar-shrink {
+    height: 60px;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 21px;
+}
+
+.nav-ul li a {
+    color: #737373;
+    font-size: 14px;
+}
+
+.nav-ul li a:hover {
+    color: black;
+}
+
+#Home {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 710px;
+    padding-top: 184px;
+}
+
+.mini {
+    max-width: 509px;
+}
+
+.mini h1 {
+    font-size: 58px;
+}
+
+.mini p {
+    max-width: 376px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 35px;
+    gap: 10px;
+}
+
+.get-btn {
+    max-width: 187px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+    background-color: #FFA62B;
+    color: white;
+    border: none;
+}
+
+.more-btn {
+    display: flex;
+    max-width: 157px;
+    width: 100%;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+    background-color: transparent;
+}
+
+.tepa-cards {
+    margin-top: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tepa-card {
+    max-width: 328px;
+    min-height: 210px;
+    padding: 35px 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+}
+
+.tepa-card h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tepa-cards :hover {
+    background-color: #00A0C1;
+    transition: 0.5s;
+}
+
+.tepa-card:hover path {
+    fill: white;
+    transition: 0.5s;
+}
+
+.tepa-card:hover h1 {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.tepa-card:hover p {
+    color: white;
+    transition: 0.5s;
+}
+
+.about {
+    padding-top: 192px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h1 {
+    font-size: 40px;
+}
+
+.about p {
+    max-width: 511px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.past-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.past-card {
+    background-color: #fafafa;
+    width: 230px;
+    height: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 40px;
+}
+
+.past-card h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.past-card:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.major {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 205px;
+}
+
+.major p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+.rasm-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rasm-card {
+    padding: 30px;
+    width: 232px;
+    height: 183px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+.rasm {
+    width: 230px;
+    height: 138px;
+}
+
+.rasm img {
+    width: 100%;
+    height: 100%;
+}
+
+.Problems {
+    width: 238px;
+    min-height: 321px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 201px;
+}
+
+.business p {
+    padding-top: 15px;
+    padding-bottom: 100px;
+    max-width: 511px;
+    text-align: center;
+}
+
+.video-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opshi {
+    width: 333px;
+    height: 418px;
+}
+
+.video {
+    width: 600px;
+    height: 443px;
+}
+
+.video img {
+    width: 100%;
+}
+
+.most h1 {
+    font-size: 40px;
+}
+
+.most p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.fox {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-svg {
+    display: flex;
+    background-color: #fafafa;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 157px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #16697A;
+    padding: 30px 50px;
+    margin-top: 70px;
+    margin-bottom: 85px;
+}
+
+.form h1 {
+    font-size: 24px;
+    max-width: 266px;
+    color: white;
+}
+
+.email {
+    max-width: 450px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.email input {
+    width: 333px;
+    height: 58px;
+    padding-left: 20px;
+}
+
+.email button {
+    width: 117px;
+    height: 58px;
+    background-color: orange;
+    border: none;
+}
+
+.tepa {
+    background: rgb(243, 243, 243);
+}
+
+.opo p {
+    min-height: 40px;
+}
+
+.cardlar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get {
+    padding: 50px 40px;
+    width: 328px;
+    height: 333px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get svg {
+    padding-bottom: 15px;
+}
+
+.get h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.get button {
+    position: static;
+    width: 160px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 10px 20px 10px 20px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 15px 0px;
+    border: 1px solid rgb(255, 166, 43);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.cardlar :hover{
+background: rgb(37, 43, 66);
+color: white;
+}
+
+.cardlar :hover button{
+    border: #fff 1px solid;
+    color: #fff;
+}
