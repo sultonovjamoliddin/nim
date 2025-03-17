@@ -36,7 +36,7 @@ header {
     padding: 30px 0;
 }
 
-.nav-btn{
+.nav-btn {
     display: none;
     background-color: transparent;
     border: none;
@@ -138,6 +138,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .tepa-card {
@@ -227,7 +228,7 @@ header {
     padding-top: 205px;
 }
 
-.major h1{
+.major h1 {
     font-size: 40px;
 }
 
@@ -252,6 +253,16 @@ header {
     background-color: #fafafa;
 }
 
+.rasm-card h1 {
+    font-size: 16px;
+}
+
+.rasm-card p {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
 .rasm {
     width: 230px;
     height: 138px;
@@ -264,7 +275,7 @@ header {
 
 .Problems {
     width: 238px;
-    min-height: 321px;
+    height: 321px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -277,7 +288,7 @@ header {
     padding-top: 201px;
 }
 
-.business h1{
+.business h1 {
     font-size: 40px;
 }
 
@@ -371,7 +382,7 @@ header {
     padding-bottom: 208px;
 }
 
-.opo{
+.opo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -379,13 +390,15 @@ header {
     padding-top: 205px;
 }
 
-.opo h1{
+.opo h1 {
     font-size: 40px;
 }
 
 .opo p {
     min-height: 40px;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
 }
 
 .cardlar {
@@ -432,33 +445,42 @@ header {
     background-color: transparent;
 }
 
-.cardlar :hover{
-background: rgb(37, 43, 66);
-color: white;
+.cardlar :hover {
+    background: rgb(37, 43, 66);
+    color: white;
 }
 
-.cardlar :hover button{
+.cardlar svg path {
+    fill: #00A0C1;
+}
+
+.cardlar :hover svg path {
+    fill: white; /* Цвет при наведении */
+}
+
+.cardlar :hover button {
     border: #fff 1px solid;
     color: #fff;
 }
 
-.past{
+.past {
     height: 751px;
     padding-top: 100px;
 }
 
-.past form{
+.past form {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
-.past form input{
+.past form input {
     height: 50px;
     max-width: 1050px;
     padding: 12px 20px;
 }
 
-#comment{
+#comment {
     height: 156px;
     display: flex;
     justify-content: start;
@@ -466,7 +488,7 @@ color: white;
     align-items: top;
 }
 
-#form-button{
+#form-button {
     margin-top: 60px;
     width: 163px;
     height: 58px;
@@ -481,7 +503,7 @@ color: white;
     color: #fff;
 }
 
-.f-tepa{
+.f-tepa {
     background-color: #16697A;
     color: #fff;
     display: flex;
@@ -489,86 +511,89 @@ color: white;
     min-height: 307px
 }
 
-.col{
+.col {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.col ul li{
+.col ul li {
     padding-top: 10px;
 }
 
-.col ul li a{
+.col ul li a {
     color: #fff;
 }
 
-.col ul p{
+.col ul p {
     padding-bottom: 10px;
     padding-top: 20px;
 }
 
-.f-info{
+.f-info {
     padding-bottom: 20px;
 }
 
-.f-past{
+.f-past {
     min-height: 68px;
     display: flex;
     align-items: center;
 }
 
-.eng-pasti{
+.eng-pasti {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.res-div{
+.res-div {
     display: none;
 }
 
 
 @media (max-width: 520px) {
-    .nav-btn{
+    .nav-btn {
         display: block;
     }
 
-    .nav-dets{
+    .nav-dets {
         display: none;
     }
 }
 
 @media (max-width: 555px) {
-    .mini h1{
+    .mini h1 {
         text-align: center;
     }
 
-    .mini p{
+    .mini p {
         text-align: center;
     }
-    
-    .buttons{
+
+    .buttons {
         display: flex;
         flex-direction: column;
     }
 
-    .buttons button{
+    .buttons button {
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-@media (max-width: 1004px) {
-    .tepa-cards{
-        flex-direction: column;
+@media (max-width: 1033px) {
+    .tepa-cards {
+        margin-top: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
     }
 }
 
 @media (max-width: 1004px) {
-    .past-cards{
-        flex-direction: column;
+    .past-cards {
+        flex-wrap: wrap;
+        justify-content: center;
         text-align: center;
         align-items: center;
         gap: 10px;
@@ -576,14 +601,15 @@ color: white;
 }
 
 @media (max-width: 1004px) {
-    .rasm-cards{
-        flex-direction: column;
+    .rasm-cards {
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
     }
 }
 
 @media (max-width: 971px) {
-    .video-end{
+    .video-end {
         flex-direction: column;
         gap: 10px;
         align-items: center;
@@ -591,25 +617,25 @@ color: white;
         flex-direction: column;
     }
 
-    .business{
+    .business {
         text-align: center;
     }
 }
 
 @media (max-width: 879px) {
-    .form{
+    .form {
         flex-direction: column;
         gap: 10px;
     }
 }
 
 @media (max-width: 657px) {
-    .div-svg{
+    .div-svg {
         flex-direction: column;
         gap: 60px;
     }
 
-    .div-svg img{
+    .div-svg img {
         width: 100%;
         max-width: 153px;
         height: 50px;
@@ -617,48 +643,57 @@ color: white;
 }
 
 @media (max-width: 1011px) {
-    .cardlar{
+    .cardlar {
         flex-direction: column;
         gap: 10px;
     }
 }
 
 @media (max-width: 645px) {
-    #formlar{
+    #formlar {
         display: none;
     }
 
-    .res-div{
+    .res-div {
         display: flex;
         flex-direction: column;
     }
 
-    .past{
+    .past {
         height: 302px;
     }
 }
 
-@media (max-width: 562px) {
-    .col{
-        flex-direction: column;
+@media (max-width: 663px) {
+    .col {
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
     }
 
-    .eng-pasti{
+    .eng-pasti {
         flex-direction: column;
         align-items: start;
         justify-content: start;
     }
 
-    .eng-pasti div{
+    .eng-pasti div {
         padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 455px) {
+    .col{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
     }
 }
 
 
 
 
-.nav-res{
+.nav-res {
     z-index: 34;
     position: fixed;
     width: 100%;
@@ -672,7 +707,7 @@ color: white;
     transition: 1s;
 }
 
-.ul-res li{
+.ul-res li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -680,7 +715,7 @@ color: white;
     height: 100px;
 }
 
-.ul-res li a{
+.ul-res li a {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -691,7 +726,7 @@ color: white;
     color: #737373;
 }
 
-.nav-close{
+.nav-close {
     position: absolute;
     right: 12px;
     top: 20px;
