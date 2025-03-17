@@ -16,7 +16,7 @@
     <header id="navbar" class="navbar-shrink">
         <div class="container nav">
             <h1>Indicorp</h1>
-            <nav>
+            <nav class="nav-dets">
                 <ul class="nav-ul">
                     <li>
                         <a href="#Home">Home</a>
@@ -39,8 +39,36 @@
                     </li>
                 </ul>
             </nav>
+
+            <button id="navbar-open" class="nav-btn"><img src="./img/icn-menu.icn-xs.svg" alt=""></button>
         </div>
     </header>
+
+    <nav id="navbar-responsive" class="nav-res">
+        <ul class="ul-res">
+            <li class="">
+                <a href="#Home">Home</a>
+            </li>
+
+            <li>
+                <a href="#About">About</a>
+            </li>
+
+            <li>
+                <a href="#Advice">Advice</a>
+            </li>
+
+            <li>
+                <a href="#Services">Services</a>
+            </li>
+
+            <li>
+                <a href="#Contact">Contact</a>
+            </li>
+        </ul>
+
+        <button class="nav-close" id="navbar-close"><img src="./img/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+    </nav>
 
     <main>
         <section id="Home">
@@ -355,6 +383,7 @@
                 </div>
 
                 <div class="rasm-cards">
+                    
                     <div class="Problems">
                         <div class="rasm-card">
                             <h1>A single source 
@@ -456,7 +485,7 @@
         <section id="Contact">
             <div class="tepa">
                 <div class="container">
-                    <div class="major opo">
+                    <div class="opo">
                         <h1>CONTACT US</h1>
                     <p>Problems trying to resolve the conflict between <br> 
                         the two major realms of Classical physics: Newtonian mechanics </p>
@@ -510,18 +539,137 @@
 
             <div class="past">
                 <div class="container">
-                    <form action="">
+                    <form id="formlar" action="">
                         <input type="text" placeholder="name">
                         <input type="email" placeholder="email">
                         <input type="tel" placeholder="Phone number *">
-                        <input type="text" placeholder="Comment">
+                        <input id="comment" type="text" placeholder="Comment">
+                        <input type="datetime-local" placeholder="How did you find us?">
+                        <button id="form-button">Contact Us</button>
                     </form>
+
+                    <div class="res-div">
+                        <h1>Consulting Agency 
+                            For Your Business</h1>
+                        <p>the quick fox jumps over 
+                            the lazy dog</p>
+                        <button id="form-button">Contact Us</button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="f-tepa">
+            <div class="container col">
+                <div class="f-info">
+                    <ul>
+                        <p>Company Info</p>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="f-info">
+                    <ul>
+                        <p>Company Info</p>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="f-info">
+                    <ul>
+                        <p>Company Info</p>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="f-info">
+                    <ul>
+                        <p>Company Info</p>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="f-info">
+                    <ul>
+                        <p>Company Info</p>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="f-past">
+            <div class="container eng-pasti">
+                <div>
+                    <p>Made With Love By Figmaland All Right Reserved </p>
+                </div>
+
+                <div>
+                    <img src="./img/Vector-6.svg" alt="">
+                    <img src="./img/Vector-6.svg" alt="">
+                    <img src="./img/Vector-6.svg" alt="">
+                    <img src="./img/Vector-6.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/main.js"></script>
 </body>

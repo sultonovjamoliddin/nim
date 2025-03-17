@@ -36,6 +36,12 @@ header {
     padding: 30px 0;
 }
 
+.nav-btn{
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
 .navbar-shrink {
     height: 60px;
     padding: 20px 0;
@@ -221,6 +227,10 @@ header {
     padding-top: 205px;
 }
 
+.major h1{
+    font-size: 40px;
+}
+
 .major p {
     text-align: center;
     padding-top: 10px;
@@ -267,6 +277,10 @@ header {
     padding-top: 201px;
 }
 
+.business h1{
+    font-size: 40px;
+}
+
 .business p {
     padding-top: 15px;
     padding-bottom: 100px;
@@ -285,7 +299,7 @@ header {
 }
 
 .video {
-    width: 600px;
+    max-width: 600px;
     height: 443px;
 }
 
@@ -340,13 +354,13 @@ header {
 }
 
 .email input {
-    width: 333px;
+    max-width: 333px;
     height: 58px;
     padding-left: 20px;
 }
 
 .email button {
-    width: 117px;
+    max-width: 117px;
     height: 58px;
     background-color: orange;
     border: none;
@@ -354,10 +368,24 @@ header {
 
 .tepa {
     background: rgb(243, 243, 243);
+    padding-bottom: 208px;
+}
+
+.opo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 205px;
+}
+
+.opo h1{
+    font-size: 40px;
 }
 
 .opo p {
     min-height: 40px;
+    text-align: center;
 }
 
 .cardlar {
@@ -412,4 +440,262 @@ color: white;
 .cardlar :hover button{
     border: #fff 1px solid;
     color: #fff;
+}
+
+.past{
+    height: 751px;
+    padding-top: 100px;
+}
+
+.past form{
+    display: flex;
+    flex-direction: column;
+}
+
+.past form input{
+    height: 50px;
+    max-width: 1050px;
+    padding: 12px 20px;
+}
+
+#comment{
+    height: 156px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-items: top;
+}
+
+#form-button{
+    margin-top: 60px;
+    width: 163px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.f-tepa{
+    background-color: #16697A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 307px
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col ul li{
+    padding-top: 10px;
+}
+
+.col ul li a{
+    color: #fff;
+}
+
+.col ul p{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.f-info{
+    padding-bottom: 20px;
+}
+
+.f-past{
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.eng-pasti{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.res-div{
+    display: none;
+}
+
+
+@media (max-width: 520px) {
+    .nav-btn{
+        display: block;
+    }
+
+    .nav-dets{
+        display: none;
+    }
+}
+
+@media (max-width: 555px) {
+    .mini h1{
+        text-align: center;
+    }
+
+    .mini p{
+        text-align: center;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1004px) {
+    .tepa-cards{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1004px) {
+    .past-cards{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1004px) {
+    .rasm-cards{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 971px) {
+    .video-end{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .business{
+        text-align: center;
+    }
+}
+
+@media (max-width: 879px) {
+    .form{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 657px) {
+    .div-svg{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .div-svg img{
+        width: 100%;
+        max-width: 153px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 1011px) {
+    .cardlar{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 645px) {
+    #formlar{
+        display: none;
+    }
+
+    .res-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .past{
+        height: 302px;
+    }
+}
+
+@media (max-width: 562px) {
+    .col{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .eng-pasti{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .eng-pasti div{
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+.nav-res{
+    z-index: 34;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    left: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.ul-res li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+
+.ul-res li a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #737373;
+}
+
+.nav-close{
+    position: absolute;
+    right: 12px;
+    top: 20px;
+    background-color: transparent;
+    border: none;
+    color: #000;
 }
